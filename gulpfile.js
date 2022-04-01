@@ -156,7 +156,7 @@ function watchFiles() {
   watch('src/**/*.html', compileHTML);
   watch(['src/assets/scss/**/*.scss', 'src/assets/scss/*.scss'], compileSCSS);
   watch('src/assets/js/*.js', compileJS);
-  watch('src/assets/img/**/*', copyImages);
+  watch('src/assets/images/**/*', copyImages);
 }
 
 // BROWSER SYNC
@@ -183,10 +183,10 @@ function deploy() {
 // COPIES AND MINIFY IMAGE TO DIST
 function copyImages() {
   log(chalk.red.bold('---------------OPTIMIZING IMAGES---------------'));
-  return src('src/assets/img/**/*.+(png|jpg|jpeg|gif|svg)')
-    .pipe(newer('dist/assets/img/'))
+  return src('src/assets/images/**/*.+(png|jpg|jpeg|gif|svg)')
+    .pipe(newer('dist/assets/images/'))
     .pipe(imagemin())
-    .pipe(dest('dist/assets/img/'))
+    .pipe(dest('dist/assets/images/'))
     .pipe(browserSync.stream());
 }
 
