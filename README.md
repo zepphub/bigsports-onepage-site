@@ -1,15 +1,7 @@
-# BOOTSTRAP + GULP STARTER TEMPLATE
+# BIGSPORTS
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-### Note
-
-The `docs` folder is for demo purposes only.
-
-Changes should be commited to `src` files only.
-
-The `dist` folder is not kept in source control.
 
 ### How to use
 
@@ -34,8 +26,8 @@ To use this template, your computer needs:
 
 ### Installing:
 
-- Clone this repo: `git clone https://github.com/johndavemanuel/bootstrap-gulp-starter-template.git`
-- Navigate into the repo directory: `cd bootstrap-gulp-starter-template`
+- Clone this repo: `git clone https://github.com/zepphub/bigsports-onepage-site`
+- Navigate into the repo directory: `cd bigsports-onepage-site`
 - Install all node packages: `npm install`
 - Run `gulp development`
 - Your site is now viewable at this URL: http://localhost:3000
@@ -98,14 +90,12 @@ To use this template, your computer needs:
 
 ### Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/tommix95"><img src="https://avatars2.githubusercontent.com/u/44686328?v=4" width="100px;" alt=""/><br /><sub><b>tommix95</b></sub></a><br /><a href="https://github.com/johndavemanuel/bootstrap-gulp-starter-template/commits?author=tommix95" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/zepphub"><img src="https://avatars.githubusercontent.com/u/3536603?v=4" width="100px;" alt=""/><br /><sub><b>Gus Denis</b></sub></a><br /><a href="#" title="Code">💻</a><a href="#" title="Design">🎨</a></td>
   </tr>
 </table>
 

@@ -6,18 +6,18 @@
   "commit": false,
   "contributors": [
     {
-      "login": "tommix95",
-      "name": "tommix95",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/44686328?v=4",
-      "profile": "https://github.com/tommix95",
+      "login": "zepphub",
+      "name": "Gus Denis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3536603?v=4",
+      "profile": "https://github.com/zepphub",
       "contributions": [
         "code"
       ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "bootstrap-gulp-starter-template",
-  "projectOwner": "johndavemanuel",
+  "projectName": "bigsports-onepage-site",
+  "projectOwner": "zepphub",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
